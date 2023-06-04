@@ -15,5 +15,5 @@ const anti = require('anti-error');
 anti.use(true);
 
 // optional 
-framework.showErr(); // show error details
+anti.showErr(); // show error details
 ```
